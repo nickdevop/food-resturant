@@ -96,6 +96,14 @@ a {
 .side-1 {
   width: 30%;
 }
+.side-1-p{
+  width: 60px;
+  padding: 10px;;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 40px;
+  background-color: #eb510f;
+
+}
 .side-1 h1 {
   font-size: 60px;
   line-height: 50px;
@@ -437,6 +445,7 @@ height: 550px;
     /* background: #0ac532; */
 }
 .buns{
+  padding-left: 20px;
     width: 50%;
 
 }
@@ -647,7 +656,7 @@ margin-top: 50px;
   transform: translateX(80px) rotate(720deg);  
 }
 #burger_name.show1 {
-  transform: translateX(300px) rotate(20deg);  
+  transform: translateX(200px) rotate(20deg);  
 }
 
 
