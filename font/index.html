@@ -58,7 +58,7 @@
         <div class="container hero-sec">
             <div class="side-1">
                 <p>New</p>
-                <h1>THE PINK</h1>
+                <h1 id="burger_name">THE PINK</h1>
                 <h1>BURGER</h1>
                 <img src="/img/icon_1.png" alt="">
                 <img src="/img/icon_1.png" alt="">
@@ -84,42 +84,11 @@
                 </div>
                 <!-- oder-now -->
                 <div class="odernow-div">
-                    <div class="order">Oder now</div>
-                    <div class="price">$18.90</div>
+                    <div id="order">Oder now</div>
+                    <div id="price">$18.90</div>
                 </div>
-
+<!-- data inserted by js -->
                 <div class="burger-crousal">
-                    <div class="bur-img"><a href="">
-                            <img src="/img/Burger-1.png" alt=""></a></div>
-
-
-                    <div class="bur-img blur"><a href="">
-                            <img src="/img/Burger-2.png" alt=""></a></div>
-
-
-                    <div class="bur-img blur"><a href="">
-                            <img src="/img/Burger-3.png" alt=""></a></div>
-
-
-                    <div class="bur-img blur"><a href="">
-                            <img src="/img/Burger-4.png" alt=""></a></div>
-
-
-                    <div class="bur-img blur"><a href="">
-                            <img src="/img/Burger-5.png" alt=""></a></div>
-
-
-                    <div class="bur-img blur"><a href="">
-                            <img src="/img/Burger-6.png" alt=""></a></div>
-
-
-                    <div class="bur-img blur"><a href="">
-                            <img src="/img/Burger-7.png" alt=""></a></div>
-
-
-                    <div class="bur-img blur"><a href="">
-                            <img src="/img/Burger-3.png" alt=""></a></div>
-
                 </div>
 
             </div>
@@ -129,28 +98,25 @@
                 <div class="calories-card">
                     <div class="c-card">
                         <h5>Calories</h5>
-                        <p>10</p>
-                        <h6>7676</h6>
+                        <h6 id="calo-txt">7845</h6>
                     </div>
                     <div class="c-card">
-                        <h5>Calories</h5>
-                        <p>30</p>
-                        <h6>1676</h6>
+                        <h5>Fat</h5>
+                        <h6 id="fat-txt">98</h6>
                     </div>
                     <div class="c-card">
-                        <h5>Calories</h5>
-                        <p>50</p>
-                        <h6>3476</h6>
+                        <h5>Protien</h5>
+                        <h6 id="pro-txt">112</h6>
                     </div>
                 </div>
 
                 <!-- big burger -->
 
-                <div class="bigburger">
-                    <img src="/img/Burger-3.png" alt="">
+                <div class="bigburger" id="bigb">
+                    <img src="/img/Burger-1.png" alt="">
                 </div>
 
-                <div class="bigburger2">
+                <div class="bigburger2" id="smallb">
                     <img src="/img/Burger-1.png" alt="">
                 </div>
                 <div class="arrows">
@@ -487,6 +453,8 @@
     </div>
     
 </footer>
+
+<script src="brain-bg.js"></script>
 
 </body>
 

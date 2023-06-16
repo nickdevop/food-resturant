@@ -1,0 +1,64 @@
+ [
+    {
+        "title" : "THE CHICKEN",
+        "price" : "$12.90",
+        "MRP" : "$24",
+        "bimg": "/img/Burger-1.png",
+        "calorie": 7845,
+        "fat" : 98 ,
+        "protein" : 112
+    },
+    {
+        "title" : "THE PINK",
+        "price" : "$18.90",
+        "MRP" : "$38",
+        "bimg": "/img/Burger-2.png",
+        "calorie" : 4512,
+        "fat" : 65,
+        "protein" : 78
+    },
+    {
+        "title" : "THE BLACK",
+        "price" : "$10.90",
+        "MRP" : "$18",
+        "bimg": "/img/Burger-3.png",
+        "calorie" : 6545,
+        "fat" : 115 ,
+        "protein" : 56
+    },
+    {
+        "title" : "THE RED",
+        "price" : "$11.90",
+        "MRP" : "$20",
+        "bimg": "/img/Burger-4.png",
+        "calorie" : 9845,
+        "fat" : 68 ,
+        "protein" : 86
+    },
+    {
+        "title" : "THE GREEN",
+        "price" : "$13.90",
+        "MRP" : "$26",
+        "bimg": "/img/Burger-5.png",
+        "calorie" : 1256,
+        "fat" : 45 ,
+        "protein" : 123
+    },
+    {
+        "title" : "THE TORNADO",
+        "price" : "$18.90",
+        "MRP" : "$38",
+        "bimg": "/img/Burger-6.png",
+        "calorie" : 5678,
+        "fat" : 92 ,
+        "protein" : 99
+    },
+    {
+        "title" : "THE COMBO",
+        "price" : "$9.90",
+        "MRP" : "$17",
+        "bimg": "/img/Burger-7.png",
+        "calorie" : 3245,
+        "fat" : 49,
+        "protein" : 78
+    }]
