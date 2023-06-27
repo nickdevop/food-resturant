@@ -1,9 +1,13 @@
 let cards = document.getElementsByClassName("burger-crousal")[0];
 
 
+ // function uses the fetch() API to fetch the JSON data from burger.json.
+//  The fetch() API returns a promise, which is then resolved with the JSON data from the file.
+//  The then() method of the promise is used to handle the successful response from the fetch() API. 
+// The then() method takes two functions as arguments: a success callback and an error callback.
 
 let json_url = "burger.json";
-data=[]
+data=[]  //array to store array object of burger
 fetch(json_url)
   .then((Response) => Response.json())
   .then((data) => {
@@ -16,22 +20,32 @@ fetch(json_url)
 `<img src=${element.bimg} alt="" onclick=content_up(${i})>`
 
     //  console.log(element.title);
-     cards.appendChild(card);
+     cards.appendChild(card);         //append html of number of burger avaliable in json and inject as html
      i++;
 
     });
     
   });
 
+
+
+
+  // This function is called when an image is clicked. It fetches the JSON data from burger.json and displays the details of the burger in the bigb and smallb elements.
+  // The content_up() function uses the innerHTML property to set the content of the bigb and smallb elements.
+
   function content_up(id) {
     
     fetch(json_url)
   .then((Response) => Response.json())
   .then((data) => {
-
+// for big burger
 bigb=document.getElementById("bigb");
+// for small burger
 smallb=document.getElementById("smallb")
 // bigb.innerHTML=`<img src=${data[id].bimg} alt="">`
+
+// this piecce of code is used for the animation of bibg and small burger on click 
+
 bigb.classList.add('show3');
 bigb.style.width="0px"
 bigb.style.height="0px"
@@ -71,3 +85,11 @@ setTimeout(() => {
 
 });
   }
+
+// variables used
+//   cards: This variable stores the div element with the class name burger-crousal.
+// json_url: This variable stores the URL of the burger.json file.
+// data: This variable stores the JSON data from burger.json.
+// id: This variable stores the index of the burger image that is currently being displayed.
+// bigb: This variable stores the img element with the id bigb.
+// smallb: This variable stores the img element with the id smallb.
